@@ -10,3 +10,19 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    position: relative;
+    margin-top: 70px;
+    background: gray;
+    border-radius: 9999px;
+    width: 192px;
+    height: 192px;
+    overflow: hidden;
+}
+
