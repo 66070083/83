@@ -18,6 +18,15 @@ body {
     position: relative;
 }
 
+.on-hover {
+    text-decoration: none;
+    color: black;
+}
+
+.on-hover:hover {
+    text-decoration: underline;
+    color: red;
+}
 
 .profile-img {
     display: flex;
@@ -28,6 +37,8 @@ body {
     width: 192px;
     height: 192px;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
 .noti {
@@ -49,7 +60,7 @@ body {
     display: grid;
     place-items: center;
     gap: 10px;
-    column-gap: 10px;
+    /* column-gap: 10px; */
 }
 
 .gallery {
